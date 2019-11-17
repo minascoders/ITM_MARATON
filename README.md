@@ -4,6 +4,6 @@
 
 ## Ejecutar los programas
 ```bash
-$ ~ javac problemname.java
-$ ~ cat input.txt | java problemname
+$ ~ javac problemName.java
+$ ~ cat input.txt | java problemName
 ```

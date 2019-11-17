@@ -6,7 +6,9 @@ mediante una serie de líneas verticales paralelas, con diferentes grosores y se
 
 La manera concreta de codificar mediante barras los números y las letras puede ser muy variada, lo que ha llevado a la aparición de diferentes estándares. De todos ellos, el EAN (European Article Number) resulta ser el más extendido. De éste, hay principalmente dos formatos, que se diferencian en el ancho. Existen así el llamado EAN-8, que codifica 8 números, y el EAN-13, que, naturalmente, codifica 13.
 
-(añadir imagen)
+| ![](../.media/8414533043847.png) | ![](../.media/65839522.png) |
+| :--: | :--: |
+| (a) EAN-8 | (b) EAN-13 |
 
 El último dígito del codigo se utiliza para detección de errores, y se calcula a partir de los demás. Para eso:
 
@@ -49,11 +51,21 @@ Para cada caso de prueba, el programa indicará si el dígito de control es corr
 Si el código de barras es EAN-13 y correcto, el programa escribirá además el país al que pertenece utilizando la tabla anterior (separado por un espacio). Si el código no aparece en la tabla, el programa mostrará "Desconocido". Ten cuidado al escribir los países; deberás respetar el uso de mayúsculas y minúsculas de la tabla.
 
 ## Ejemplo
-| Entrada | Salida |
-| -- | -- |
-| 65839522 | SI |
-| 65839521 | NO |
-| 8414533043847 | SI Desconocido |
-| 5029365779425 | SI Inglaterra |
-| 5129365779425 | NO |
-| 0 | |
+Entrada:
+```
+65839522
+65839521
+8414533043847
+5029365779425
+5129365779425
+0
+```
+
+Salida:
+```
+SI
+NO
+SI Desconocido
+SI Inglaterra
+NO
+```
