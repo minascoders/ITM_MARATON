@@ -1,4 +1,4 @@
-# Problema D: Game of Thones
+# Problema E: Game of Thones
 ## Base Name: game.java (game.cpp)
 
 Jaime Lannister, más conocido por el *Matareyes*, acaba de llegar a Aguasdulces. Venía con la intención de entrar en el castillo de forma pacífica pero Brynden Tully, el *Pez Negro*, se ha negado a aceptar sus condiciones, así que tendrá que tomarlo a punta de espada. No le gusta romper sus promesas, pero al fin y al cabo todos saben lo que vale la palabra del *Matarreyes*; una traición más o menos no extrañará a nadie. A pesar de todo, Jaime nota un regusto amargo cuando piensa en el tiempo que pasó encerrado en aquel castillo y en cómo Catelyn Stark le hizo prometer que nunca levantaría una espada contra sus habitantes antes de liberarle.
